@@ -22,7 +22,6 @@
     justify-content: flex-end;
     height: 100%;
     width: 100%;
-    padding-top: 1%;
     flex-wrap: wrap;
     background-color: #19130e;
 }
@@ -33,25 +32,24 @@
     align-items: center;
     justify-content: flex-end;
     width: 69%;
-    max-width: 100%;
-    height: 200px;
-    border: black solid 2px;
+    height: 25%;
     padding-left: 20%;
     padding-right: 5%;
-    margin-bottom: 5%;
     background: #de2e5c;
-    z-index: -1;
 
 }
 
 #header_naming {
-    font-size: 210%;
+    font-size: clamp(1rem, 2vw, 2rem);
+    word-wrap: break-word;
     position: fixed;
+    width: 15%;
+    max-width: 50%;
+    max-height: 20%;
     left: 35%;
     top: 7.5%;
-    margin-right: 100%;
     padding: 1%;
-    border: black solid 2px;
+    border: black solid 1px;
     background: white;
 }
 
@@ -62,10 +60,8 @@
     position: fixed;
     display: flex;
     flex-direction: column;
-    width: 28%;
-    height: 71%;
-    border: black solid 2px;
-    margin-left: 1%;
+    width: 30%;
+    height: 75%;
     padding: 5% 3% 0 3%;
     left: 0;
     background: #ecd9b9;
@@ -85,34 +81,34 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    width: 67%;
-    max-width: 100%;
-    height: 350px;
-    margin: 0 2% 5% 50%;
+    width: 50%;
+    height: 50%;
+    z-index: -1;
 }
 
 #footer {
-    font-size: clamp(1rem, 2vw, 2rem);
+    font-size: clamp(1.3rem, 2vw, 2rem);
     display: flex;
     align-items: center;
     justify-content: flex-start;
     width: 69%;
-    max-width: 100%;
-    height: 250px;
-    border: black solid 2px;
+    height: 25%;
     padding-left: 5%;
     padding-right: 20%;
     background: #de2e5c;
 }
 
 #footer_naming {
-    font-size: 210%;
+    font-size: clamp(1rem, 2vw, 2rem);
+    word-wrap: break-word;
     position: fixed;
+    width: 15%;
+    max-width: 50%;
+    max-height: 20%;
     left: 87%;
     bottom: 8%;
-    margin-right: 100%;
     padding: 1%;
-    border: black solid 2px;
+    border: black solid 1px;
     background: white;
 }
 
@@ -121,13 +117,11 @@
     word-wrap: break-word;
     position: fixed;
     display: flex;
-    width: 28%;
-    height: 250px;
-    border: black solid 2px;
-    margin-left: 1%;
+    width: 30%;
+    height: 25%;
     padding: 5% 3% 0 3%;
+    bottom:0;
     left: 0;
-    top: 76%;
     background: #8c6c61;
 }
 
@@ -140,6 +134,3 @@
 #wiki_link a:hover {
     color: blue;
 }
-/*a
-
- */
