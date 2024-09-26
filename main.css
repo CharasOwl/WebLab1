@@ -16,7 +16,7 @@
     src: url("Fonts/Trigun.ttf");
 }
 
-.container {
+#container {
     position: fixed;
     display: flex;
     justify-content: flex-end;
@@ -26,7 +26,7 @@
     background-color: #19130e;
 }
 
-.header {
+#header {
     font-size: clamp(1.3rem, 2vw, 2rem);
     display: flex;
     align-items: center;
@@ -39,7 +39,7 @@
 
 }
 
-.header_naming {
+#header_naming {
     font-size: clamp(1rem, 2vw, 2rem);
     word-wrap: break-word;
     position: fixed;
@@ -53,7 +53,7 @@
     background: white;
 }
 
-.menu {
+#menu {
     font-size: 240%;
     word-wrap: break-word;
     overflow: hidden;
@@ -67,26 +67,26 @@
     background: #ecd9b9;
 }
 
-.menu a {
+#menu a {
     margin: 10px 0;
     text-decoration: none;
     color: black;
 }
 
-.menu a:hover {
+#menu a:hover {
     color: blue;
 }
 
-.picture {
+#picture {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
     z-index: -1;
 }
 
-.footer {
+#footer {
     font-size: clamp(1.3rem, 2vw, 2rem);
     display: flex;
     align-items: center;
@@ -98,7 +98,7 @@
     background: #de2e5c;
 }
 
-.footer_naming {
+#footer_naming {
     font-size: clamp(1rem, 2vw, 2rem);
     word-wrap: break-word;
     position: fixed;
@@ -112,7 +112,7 @@
     background: white;
 }
 
-.wiki_link {
+#wiki_link {
     font-size: 240%;
     word-wrap: break-word;
     position: fixed;
@@ -125,12 +125,12 @@
     background: #8c6c61;
 }
 
-.wiki_link a {
+#wiki_link a {
     margin: 10px 0;
     text-decoration: none;
     color: black;
 }
 
-.wiki_link a:hover {
+#wiki_link a:hover {
     color: blue;
 }
